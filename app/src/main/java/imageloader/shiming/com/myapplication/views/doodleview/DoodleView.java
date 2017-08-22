@@ -86,7 +86,9 @@ public class DoodleView  extends SurfaceView implements IInternalDoodle {
     private FrameCache mTempFrameCache;
 
     private DoodleEnum.InputMode mInputMode = DoodleEnum.InputMode.DRAW;
+    //测试
     private DoodleEnum.SelectionMode mSelectionMode = DoodleEnum.SelectionMode.NONE;
+//    private DoodleEnum.SelectionMode mSelectionMode = DoodleEnum.SelectionMode.SELECTION;
 
     private IModelManager mModelManager;
     private IVisualManager mVisualManager;
